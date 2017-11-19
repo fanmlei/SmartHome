@@ -1,2 +1,1 @@
-# Auto detect text files and perform LF normalization
-*.C++ linguist-language = Arduino
+*.c++ linguist-language = Arduino
