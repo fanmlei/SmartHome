@@ -7,8 +7,8 @@
 #include"Switch.h"
 #include<ArduinoJson.h>
 #include"type.c"
-#define KEY  "xbSYklOsqS3hN94ykh7g0XpzQBU="     //APIkey
-#define ID   "6975064"                          //设备ID
+#define KEY  "****************************"     //APIkey
+#define ID   "*******"                          //设备ID
 #define PUSH_ID NULL
 
 unsigned char pkt_type;
@@ -110,7 +110,7 @@ bool WiFi_Class::INIT()
 
 bool WiFi_Class::Connect()
 {
-  while (!doCmdOk("AT+CWJAP=\"test\",\"qwerqwer\"", "OK"));
+  while (!doCmdOk("AT+CWJAP=\"****\",\"********\"", "OK"));    //wifi密码
   Serial.println("Connected");
 }
 
